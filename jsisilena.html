@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mad Pride Prague" content="Mad Pride Prague">
+    <meta name="keywords" content="mad pride, antipsychiatrické hnutí, destigmatizace, psychiatrie">
+    <link rel="shortcut icon" href="mad-icon.png" />
+    <title>Jsi šílená*ý?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions logicalGrouping="MatchAny">
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          <add input="{HTTP_HOST}" pattern="^www.madprideprague.cz$" negate="true" />
+        </conditions>
+        <action type="Redirect" redirectType="Permanent" url="https://www.madprideprague.cz/{R:1}" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>   
+</configuration>
+    
+</head>
+    
+<header> <img class="obrazek"
+  src="mad.jpg"
+  alt="madprideprague"></header>  
+
+<body>
+    <section id="jsisilena">
+    <h2> Kultura, advokacie, historie a zábava s šílenými, crazy bytostmi, přeživšími psychiatrie a
+        nálepkovanými lidmi</h2>
+        <ul class=" menu">
+          <li><a href= "index.html#index">Mainpage</a></li>
+          <li><a href= "jsisilena.html#jsisilena">Jsi šílená*ý?</a></li>
+          <li><a href="disability.html#disability">Práva lidí s hendikepem</a></li>
+          <li><a href= "silenadoba.html#silenadoba">Šílená doba</a></li>
+          <li><a href= "onas.html#onas">O nás</a></li>
+       </ul>
+   
+    
+        <h3>Jsi šílený*á?</h3>
+    
+            <p>Podobně tak jako LGBTQ komunita si vzala zpět slovo "queer", aktivisté*ky z Mad pride se snaží vzít si zpět jazyk, který byl použit proti nim. Jsme "šílení*é", "cvoci", "psycho", jsme "maniaci" a "pacoši*ky". Znovuzískání našeho jazyka je politické a zpochybňuje diskriminaci. Účastníce*ci Mad pride používají slovo “šílený” s hrdostí, přičemž odmítají nálepky, které jsou formou útlaku. Zvolili jsme být “šílené*í” otevřeně.
+            </p>
+    </section>  
+</body>
+<footer>
+  <a href="mailto:madprideprague@gmail.com"><img src="mail.png" alt="mail_icon"></a>
+  <a href = "https://www.facebook.com/madpridepraha" target="_blank"><img src="facebook.png" alt="facebook_icon"></a>
+  <a href= "https://www.instagram.com/mad_pride_prague/" target="_blank"><img src="insta.png" alt="instagram_icon"></a>
+
+</footer>
+</html>

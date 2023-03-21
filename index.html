@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mad Pride Prague" content="Mad Pride Prague">
+    <meta name="keywords" content="mad pride, antipsychiatrické hnutí, destigmatizace, psychiatrie">
+    <link rel="shortcut icon" href="mad-icon.png" />
+    <title>Mainpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions logicalGrouping="MatchAny">
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          <add input="{HTTP_HOST}" pattern="^www.madprideprague.cz$" negate="true" />
+        </conditions>
+        <action type="Redirect" redirectType="Permanent" url="https://www.madprideprague.cz/{R:1}" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>   
+</configuration>
+    
+</head>
+   
+<header> <img class="obrazek"
+  src="mad.png"
+  alt="madprideprague"></header>   
+
+<body>
+  <section id="index">
+    <h2> Kultura, advokacie, historie a zábava s šílenými, crazy bytostmi, přeživšími psychiatrie a
+        nálepkovanými lidmi</h2>
+        <ul class=" menu">
+           <li><a href= "index.html#index">Mainpage</a></li>
+           <li><a href= "jsisilena.html#jsisilena">Jsi šílená*ý?</a></li>
+           <li><a href="disability.html#disability">Práva lidí s hendikepem</a></li>
+           <li><a href= "silenadoba.html#silenadoba">Šílená doba</a></li>
+           <li><a href= "onas.html#onas">O nás</a></li>
+        </ul>
+        
+        <h3>Co je Mad Pride?</h3>
+    
+            <p>Jsi šílený*á? To je na hrdost! <strong>Mad Pride</strong> je festival umění, kultury a historie vytvořený přeživšími psychiatrie, psychiatrickými pacienty*kami, šílenými lidmi, a lidmi, které svět označil za "duševně nemocné". Mad pride je o vzpomínání na šílenou historii boje proti diskriminaci a o účasti na něm. Je to obhajoba práva na jinakost. Je to přijetí identity “šílence”. Je to rozvoj a posílení komunit bláznů a bláznivek. Naše životy jsou na hlavu a o to víc cenné a potřebují oslavu! Tou oslavou je první česká Mad pride s průvodem hrdosti "bláznů a šílenkyň".</p>
+
+            <p class=" infomace">
+        <h3>Mad Pride 2023</h3>
+        
+        <iframe class = mapa src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.100237146632!2d14.407693099999998!3d50.065684399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b945a35bd3a4b%3A0xfeb34191b5391b45!2sUnderdogs&#39;!5e0!3m2!1scs!2scz!4v1677886496897!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Průvod se uskuteční <strong>1. dubna v odpoledních hodinách v centru Prahy</strong>, následovat ho bude doprovodný program v <a href = https://www.eterniasmichov.com><strong>Eternii</strong></a> a <a href="https://underdogsprague.org/"><strong>Underdogs'</strong></a> na Smíchově v režii lidí s vlastní zkušeností s psychickými obtížemi a/nebo psychiatrickým systémem – a to v podobě workshopů, pacientské konference „naruby“, kulturních vystoupení či výstavy „šíleného“ umění, který v pozdních hodinách zakončí djs. V průvodu i na celé akci vítáme jak lidi se zkušeností s psychiatrickým systémem, tak kohokoliv dalšího.</p>
+      <p>🎭Už den předem – tedy <strong>31. března</strong>, se ale v Eternii můžete těšit na tematickou přednášku, čtecí kroužek a další aktivity, které zakončíme společnou výrobou masek a transparentů do sobotního průvodu. 🎭</p>
+      
+        
+
+        <table>
+
+          <tr>
+            <td> <a href="https://goo.gl/maps/4QoGpAnM9z9XADKa7"> <img class ="eternia" src="eternia.png" alt="eternia_logo"></a></td>
+            <td><h4>31.3.2023</h4></td>
+          </tr>
+
+          <tr>
+            <td class="time">13:00</td>
+            <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf_LNM08zUEBuuRXBD-lgSdv5eafB30FJkJshSupGuyBIYN4w/viewform"><strong>Kruh intersekce</strong></a> - kolektivní čtení</td>
+          </tr>
+
+          <tr>
+            <td class="time">14:30</td>
+            <td><strong>Kateřina Kolářová</strong> - přednáška</td>
+          </tr>
+
+          <tr>
+            <td class="time">15:20</td>
+            <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdq0N8PAHdMeYgrFcwJLjLOHu9-VZ5Zv6XXBj_yTi9L9I7vZA/viewform"><strong>Značka Kačka</strong></a> - deníkovací workshop</td>
+          </tr>
+
+          <tr>
+            <td class="time">16:20</td>
+            <td><strong>Kristína Janáčková</strong> - Dialóg namiesto hospitalizace: Aké prístupy okrem tradičnej psychiatrie existujú k psychoźe a schizofrenii?</td>
+          </tr>
+
+          <tr>
+            <td class="time">17:10</td>
+            <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGR_T_Cxy0K7itg38QhEEeZZtTucV8kxOfuv015TxXbatHyQ/viewform"><strong>Form and Flow Therapy</strong> - mad health: somatics and art</a></td>
+          </tr>
+
+          <tr>
+            <td class="time">18:40</td>
+            <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdVBIrB92uh4nOwf4bbo1TfYq0DjNjpDU4U848GLEoTkxXsxw/viewform"><strong>Jüdisch fraulein a Kateřina Peterková</strong> - šicí workshop</a></td>
+          </tr>
+
+      </table>
+     
+      <table>
+        <tr>
+          <td> <a href="https://goo.gl/maps/4QoGpAnM9z9XADKa7"> <img class ="eternia" src="eternia.png" alt="eternia_logo"></a></td>
+          <td><h4>1.4.2023</h4></td>
+        </tr>
+
+        <tr>
+          <td class="time">16:00</td>
+          <td><strong>Anti-konference</strong></a></td>
+        </tr>
+
+        <tr>
+          <td class="time">18:00</td>
+          <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjBUvDIYJYjZY3TnRIItaAFJawjZ8xfsouwy_y1wInzLaLyA/viewform"><strong>Ela Plíhalová</strong></a> - mad mapping workshop</td>
+        </tr>
+
+        <tr>
+          <td class="time">19:05</td>
+          <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeWS6aCzP3BWFo8a8Fc9g42NF6dcMVIrRKK_KbSKjuiBI4_bw/viewform"><strong>Jüdisch fraulein a Radka Honsová</strong></a> - podpůrná skupina</td>
+        </tr>
+
+        <tr>
+          <td class="time">20:10</td>
+          <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPqdSvuuQy2wIMA28PzDnAQtqK-NGUOe1Z99aqkYh4m1hs_Q/viewform"><strong>Radka Honsová</strong></a> - pohybový workshop</td>
+        </tr>
+
+    </table>
+
+    <table>
+      <tr>
+        <td class="time"><a href="https://goo.gl/maps/FYaKXHC4kYk7eBcC6"><img class ="underdogs" src="underdogs.png" alt="underdogs_logo"></a></td>
+        <td><h4>1.4.2023</h4></td>
+      </tr>
+
+      <tr>
+        <td class="time">16:25</td>
+        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdChtEFFomLQjVUHh3JzopsSHHafYML5ybWzNYmh2ouO22_WQ/viewform"><strong>Mary C</strong> - workshop: hudební technologie, stereotypy, emoce</a></td>
+      </tr>
+
+      <tr>
+        <td class="time">18:00</td>
+        <td><strong>Autorská čtení</strong></td>
+      </tr>
+
+      <tr>
+        <td class="time">20:30</td>
+        <td><strong>Hudba</strong></td>
+      </tr>
+    </table>
+
+    <p>Mapy s cestou do Eternie a Underdog's <a href="https://goo.gl/maps/4QoGpAnM9z9XADKa7">tady</a> a <a href="https://goo.gl/maps/FYaKXHC4kYk7eBcC6">tady</a>, popřípadě po kliknutí na jejich ikonku 😘</p>
+
+    
+
+      <h3>Benefice</h3>
+      <p>Akci se snažíme dělat svépomocí, co to jen jde, ale nějaké finance na její organizaci přesto potřebovat budeme. Zveme vás proto na benefici, která se uskuteční <strong>15. března</strong> v holešovickém <a href = https://www.crossclub.cz/cs>cross clubu</a>!</p>
+      
+    <section class="benefit">
+      <p>🔥potvrzení vystupující 🔥</p>
+      <p><strong>Arleta</strong><br>
+      <a href = https://arleta.bandcamp.com>https://arleta.bandcamp.com</a><br>
+      <strong>Mt. Florida</strong><br>
+      <a href = https://on.soundcloud.com/aSemV>https://on.soundcloud.com/aSemV</a><br>
+      <strong>SJ Yellow</strong><br>
+      <a href = https://soundcloud.com/sj_yellow>https://soundcloud.com/sj_yellow</a><br>
+      <strong>tmk</strong><br>
+      <a href = https://soundcloud.com/tmkdj420>https://soundcloud.com/tmkdj420</a></p>
+
+      </section>
+          
+
+          <a href="https://www.toplist.cz"><script language="JavaScript" type="text/javascript" charset="utf-8">
+            <!--
+            document.write('<img src="https://toplist.cz/dot.asp?id=1827247&http='+
+            encodeURIComponent(document.referrer)+'&t='+encodeURIComponent(document.title)+'&l='+encodeURIComponent(document.URL)+
+            '&wi='+encodeURIComponent(window.screen.width)+'&he='+encodeURIComponent(window.screen.height)+'&cd='+
+            encodeURIComponent(window.screen.colorDepth)+'" width="1" height="1" border=0 alt="TOPlist" />');
+            //--></script><noscript><img src="https://toplist.cz/dot.asp?id=1827247&njs=1" border="0"
+            alt="TOPlist" width="1" height="1" /></noscript></a>
+    <footer>
+      <a class="icon" href="mailto:madprideprague@gmail.com"><img src="mail.png" alt="mail_icon"></a>
+      <a class="icon" href = "https://www.facebook.com/madpridepraha" target="_blank"><img src="facebook.png" alt="facebook_icon"></a>
+      <a class="icon" href= "https://www.instagram.com/mad_pride_prague/" target="_blank"><img src="insta.png" alt="instagram_icon"></a>
+
+    </footer>
+</body>
+</html>

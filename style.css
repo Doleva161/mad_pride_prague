@@ -1,0 +1,164 @@
+h1{font-size:40px;}
+
+h2{
+    font-size:3rem;
+    margin-top: 0;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-top: 36px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+
+h1, h2, h3{
+    color: #05308d; 
+    font-weight: bold;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align:justify;
+    color: #07011e;
+    background-color: #fefe03;
+    background-blend-mode: lighten;
+    margin:0;
+       
+}
+
+section{
+    padding:15px 10%;
+    
+}
+.benefit{
+    text-align: center;
+    clear: right;
+
+}
+
+
+/* unvisited link */
+a:link {
+    color: #084ee4;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(5, 18, 112);
+  }
+
+footer{
+    background-color: #ffff01;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0%;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: #05308d;
+    font-weight: bolder;
+    display:inline-block;
+    padding: 20px 40px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    background-color: #fefe03 ;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+.menu a:hover{
+    background: #fdf971 ;
+}
+
+
+ .mapa {
+    margin-left: 10%;
+    margin-bottom: 50px;
+    float: right;
+    width: 50%;
+    overflow: auto;
+}
+
+
+.informace{
+    font-weight: bold;
+}
+
+.obrazek{
+   
+    align-content: center;
+    width: 100%;
+    padding:0%;
+    margin:0%;
+    }
+
+.eternia{
+    width:100px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.underdogs{
+    width:80px;
+    height: auto;
+    margin-right: 0;
+    border-radius: 100%;
+    margin:0;
+    
+}
+
+table{
+    width: 100%;
+    height: auto;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin-bottom: 3rem;
+}
+
+tr, td{
+    text-align: left;
+    border: 10px solid #ffff01;
+}
+
+.time {
+    width: 20%;
+    height: auto;
+    table-layout: fixed;
+    padding-left: 30px;
+}
+
+table tbody tr td:hover{
+    background-color: #fdf971;
+    }
+
+a :hover{
+    transform: rotateY(360deg) scale(1.5, 1.5);
+    transition: all 450ms ease-out 0s;;
+}
+
+.icon{
+    margin:5px;
+}
+
+
+    

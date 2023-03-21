@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mad Pride Prague" content="Mad Pride Prague">
+    <meta name="keywords" content="mad pride, antipsychiatrické hnutí, destigmatizace, psychiatrie">
+    <link rel="shortcut icon" href="mad-icon.png" />
+    <title>Práva lidí s hendikepem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions logicalGrouping="MatchAny">
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          <add input="{HTTP_HOST}" pattern="^www.madprideprague.cz$" negate="true" />
+        </conditions>
+        <action type="Redirect" redirectType="Permanent" url="https://www.madprideprague.cz/{R:1}" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>   
+</configuration>
+    
+</head>
+     
+<header> <img class="obrazek"
+  src="mad.jpg"
+  alt="madprideprague"></header>       
+ 
+<body>
+  <section id="disability">
+    <h2> Kultura, advokacie, historie a zábava s šílenými, crazy bytostmi, přeživšími psychiatrie a
+        nálepkovanými lidmi</h2>
+        <ul class=" menu">
+          <li><a href= "index.html#index">Mainpage</a></li>
+          <li><a href= "jsisilena.html#jsisilena">Jsi šílená*ý?</a></li>
+          <li><a href="disability.html#disability">Práva lidí s hendikepem</a></li>
+          <li><a href= "silenadoba.html#silenadoba">Šílená doba</a></li>
+          <li><a href= "onas.html#onas">O nás</a></li>
+       </ul>
+
+        <h3>Práva lidí s hendikepem</h3>
+    
+            <p>Zatímco některé diagnózy už jsou v mainstreamovém diskurzu
+            přijímanější, diagnóza <strong>schizofrenie</strong> nebo <strong>bipolárky</strong> ještě pořád může
+             poslat člověka rovnýma nohama rovnou do cvokárny bez možnosti 
+             rozhodovat o sobě samé*m nebo jít k volbám. Některé bláznění 
+             zkrátka nevidíme rádi*y, a proto uděláme cokoliv, abychom ho uvěznily*i
+              za zdmi psychiatrických ústavů, nechceme vedle něj bydlet, nebo mu rozumět.</p>
+              
+            <p>My ale věříme, že respekt, komunita a solidarita s lidmi s duševním 
+            onemocněním jsou možné. Věříme ve stejná práva bez ohledu na vnímání světa, 
+            které je navíc vždycky subjektivní. Jsme součástí globálního povstání lidí, 
+            kteří žijí se zdravotním postižením. Máme právo být sví*é. </p>
+            <p>Jsme součástí širšího hnutí za práva osob s hendikepem a usilujeme o zajištění rovných 
+            příležitostí a rovných práv pro všechny osoby se zdravotním postižením, 
+            zejména psychiatrických pacientek*ů. Jsme lidé s jinakostí a po celém světě 
+            společně bojujeme se stejnými požadavky a za stejné cíle. A ty jsou: 
+            dostupnost a bezpečnost v architektuře, dopravě a fyzickém prostředí; 
+            právo na materiální zajištění umožňující důstojný život; dostupnost 
+            kvalitní péče; rovné příležitosti v nezávislém životě, rovnosti v zaměstnání,
+            vzdělávání a bydlení; bez diskriminace, bez zneužívání, násilí, zanedbávání 
+            a jiného porušování práv. Pracujeme na prolomení institucionálních, fyzických
+             a společenských bariér, které brání osobám se zdravotním postižením žít své
+              životy jako ostatní lidé.</p>
+ </section>
+            
+</body>
+<footer>
+  <a href="mailto:madprideprague@gmail.com"><img src="mail.png" alt="mail_icon"></a>
+  <a href = "https://www.facebook.com/madpridepraha" target="_blank"><img src="facebook.png" alt="facebook_icon"></a>
+  <a href= "https://www.instagram.com/mad_pride_prague/" target="_blank"><img src="insta.png" alt="instagram_icon"></a>
+
+</footer>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mad Pride Prague" content="Mad Pride Prague">
+    <meta name="keywords" content="mad pride, antipsychiatrické hnutí, destigmatizace, psychiatrie">
+    <link rel="shortcut icon" href="mad-icon.png" />
+    <title>O nás</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions logicalGrouping="MatchAny">
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          <add input="{HTTP_HOST}" pattern="^www.madpridepraguecz$" negate="true" />
+        </conditions>
+        <action type="Redirect" redirectType="Permanent" url="https://www.madprideprague.cz/{R:1}" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>   
+</configuration>
+    
+</head>
+
+<header> <img class="obrazek"
+  src="mad.jpg"
+  alt="madprideprague"></header>  
+        
+<body>
+  <section id="onas">
+    <h2> Kultura, advokacie, historie a zábava s šílenými, crazy bytostmi, přeživšími psychiatrie a
+        nálepkovanými lidmi</h2>
+        <ul class=" menu">
+          <li><a href= "index.html#index">Mainpage</a></li>
+          <li><a href= "jsisilena.html#jsisilena">Jsi šílená*ý?</a></li>
+          <li><a href="disability.html#disability">Práva lidí s hendikepem</a></li>
+          <li><a href= "silenadoba.html#silenadoba">Šílená doba</a></li>
+          <li><a href= "onas.html#onas">O nás</a></li>
+       </ul>
+
+        <h3>Kdo stojí za Mad Pride</h3>
+        
+        <p>Parta, která se potkala v kavárně na Žižkově má jedno společné. Spojuje nás zkušenost s šílenstvím.</p> 
+        <p><b>Rad</b> je “maniak”, který si dal zmrzlinu s ufony na planetě 45-ZJK a drží rekord v nejvyšším počtu hospitalizací v blázincích za jedno století. Je přesvědčený, že kdybychom místo za zdmi ústavů bláznili*y doma nebo v ulicích, prd by se stalo a na světě by bylo o něco veseleji. Kromě bláznění se věnuje sociální práci, výzkumu a psaní. </p>
+        <p><b>Anička</b> je “podivínský pako a hysterka”, která je občas tolik poplašená, že několik dní nevyjde ze svého bytu. Na veřejnosti si od stresu ráda ulevuje rytmickým kýváním se dopředu a dozadu a různým haptickým stimmováním. Byla by ráda, kdyby byly veřejný prostor a instituce lépe nadyzajnované k tomu, aby si v nich v klidu a bezpečí mohla sem tam “zabláznit” a kývat se o sto šest všemi směry. Taky dělá doktorát na fildě, žije feminismus, pěstuje kytky a snaží se naučit hrát na syntezátory.</p> 
+        <p><b>Josie</b> je z týmu asi nejvíc “na hlavu” a polovinu času lítá myšlenkama někde v alternativním časoprostoru. Po tom, co roky poslouchala, že nemá dostatečně hrozný život na to, aby jí bylo špatně, si dovolila se zhroutit, začít brát prášky a vyměnit hyperproduktivitu za čas na svoje pocity a obří únavu. Josie studuje psychologii a hledá své místo v systému péče o další „šílené“ lidi, který mezi sebou „blázny“ samotné zrovna nevítá. Vlastní šílenost ventiluje ve volném čase do poezie nebo kreslení.</p>
+        
+            <p><b>Eva</b> je vačice. Někdy bohyně, jindy hromádka neštěstí. P.a.n.i.k.a je její druhé jméno. 
+            Dřív se věnovala sociální práci, ze vší tý lidský bídy a utrpení jí drblo ještě víc, dnes se snaží uchytit
+            jako koderka. Snaží se podporovat lidi kolem sebe v jejich psychických i jiných těžkostech. Nikdy nic nevystudovala a ani se nechystá.</p>
+
+          </section>
+</body>
+
+<footer>
+  <a href="mailto:madprideprague@gmail.com"><img src="mail.png" alt="mail_icon"></a>
+  <a href = "https://www.facebook.com/madpridepraha" target="_blank"><img src="facebook.png" alt="facebook_icon"></a>
+  <a href= "https://www.instagram.com/mad_pride_prague/" target="_blank"><img src="insta.png" alt="instagram_icon"></a>
+
+</footer>
+</html>
